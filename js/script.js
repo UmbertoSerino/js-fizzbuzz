@@ -9,22 +9,27 @@
 
 // bisogna creare un ciclo con una condizione
 
+// creare un container con appendChild
+
+
 for (let i = 1; i <= 100; i++){
 
+        // Se il numero divisibile sia 3 e 5
+    if (i % 3 === 0 && i % 5 === 0){
+        console.log("FizzBuzz");
+    } 
     // se il numero è divisibile per 3
-    if (i % 3 === 0){
-    console.log(i + " fizz");
-    }{
-
-        // aggiungi Fizz
-
+    else if (i % 3 === 0){
+        console.log("fizz");
+    }
         // se il numero è divisibile per 5
-    } if (i % 5 === 0);
-    console.log(i + " buzz")
-    {
-        // aggiungi buzz
-    } if (i % 3 && i % 5);
-    console.log(i + " Fizz Buzz")
+    else if (i % 5 === 0){
+         console.log("buzz");
+    }
+        // in tutti gli altri casi
+    else {
+        console.log (i);
+    }
 }
 
                                                                                                                      
